@@ -30,7 +30,8 @@ def MotorOff():
     GPIO.output(DRIVE_3, GPIO.LOW)
     GPIO.output(DRIVE_4, GPIO.LOW)
 
-# Setup for processor monitor
+# Setup for processor monitor, adjust your temperature here. The fan will stay on between tempHigh and tempLow. 
+# Default at 50 degrees celsius and 33 degrees celsius.
 lProcessorFans = [DRIVE_1]                              # List of fans to turn on when processor is too hot
 pathSensor = '/sys/class/thermal/thermal_zone0/temp'    # File path used to read the temperature
 readingPrintMultiplier = 0.001                          # Value to multiply the reading by for user display
