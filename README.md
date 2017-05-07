@@ -7,6 +7,3 @@ Sudo crontab -e and add the following code below:
 
 # Information
 This python script uses RPi.GPIO, this script uses default temperatures and default GPIO pins. You can ajdust all to you own liking.
-
-
-
