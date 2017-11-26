@@ -7,6 +7,3 @@ Sudo crontab -e and add the following code below:
 
 # Information
 This python script uses RPi.GPIO, this script uses default temperatures and default GPIO pins. You can adjust all to you own liking.
-
-# In depth review
-http://darthkeizer.ddns.net/index.php/autostart-your-raspberry-fan/
